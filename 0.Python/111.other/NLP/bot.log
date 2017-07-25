@@ -1,0 +1,1942 @@
+[2017-07-13 12:51:31,016]: CUSTOM. Main module started
+[2017-07-13 12:51:31,017]: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x030EC970>
+[2017-07-13 12:51:31,017]: JobQueue thread started
+[2017-07-13 12:51:31,018]: dispatcher - started
+[2017-07-13 12:51:31,018]: updater - started
+[2017-07-13 12:51:31,019]: Updater thread started
+[2017-07-13 12:51:31,019]: Entering: set_webhook
+[2017-07-13 12:51:31,019]: Starting new HTTPS connection (1): api.telegram.org
+[2017-07-13 12:51:31,021]: Dispatcher started
+[2017-07-13 12:51:32,865]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/setWebhook HTTP/1.1" 200 68
+[2017-07-13 12:51:32,867]: True
+[2017-07-13 12:51:32,867]: Exiting: set_webhook
+[2017-07-13 12:51:32,867]: Entering: get_updates
+[2017-07-13 12:51:41,919]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 381
+[2017-07-13 12:51:41,919]: Getting updates: [586429568]
+[2017-07-13 12:51:41,920]: [<telegram.update.Update object at 0x031250F0>]
+[2017-07-13 12:51:41,920]: Exiting: get_updates
+[2017-07-13 12:51:41,920]: Entering: get_updates
+[2017-07-13 12:51:41,920]: Processing Update: {'update_id': 586429568, 'message': {'message_id': 2, 'date': 1499939505, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADQQADR3A4S7OGXCVrzbpyAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 17425}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:51:51,991]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:51:51,992]: No new updates found.
+[2017-07-13 12:51:51,992]: []
+[2017-07-13 12:51:51,992]: Exiting: get_updates
+[2017-07-13 12:51:51,993]: Entering: get_updates
+[2017-07-13 12:52:46,663]: CUSTOM. Main module started
+[2017-07-13 12:52:46,664]: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x0310C970>
+[2017-07-13 12:52:46,665]: JobQueue thread started
+[2017-07-13 12:52:46,665]: dispatcher - started
+[2017-07-13 12:52:46,666]: updater - started
+[2017-07-13 12:52:46,666]: Updater thread started
+[2017-07-13 12:52:46,666]: Entering: set_webhook
+[2017-07-13 12:52:46,667]: Starting new HTTPS connection (1): api.telegram.org
+[2017-07-13 12:52:46,667]: Dispatcher started
+[2017-07-13 12:52:47,270]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/setWebhook HTTP/1.1" 200 68
+[2017-07-13 12:52:47,271]: True
+[2017-07-13 12:52:47,271]: Exiting: set_webhook
+[2017-07-13 12:52:47,271]: Entering: get_updates
+[2017-07-13 12:52:54,752]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 381
+[2017-07-13 12:52:54,752]: Getting updates: [586429569]
+[2017-07-13 12:52:54,752]: [<telegram.update.Update object at 0x031340F0>]
+[2017-07-13 12:52:54,753]: Exiting: get_updates
+[2017-07-13 12:52:54,753]: Entering: get_updates
+[2017-07-13 12:52:54,754]: Processing Update: {'update_id': 586429569, 'message': {'message_id': 3, 'date': 1499939578, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADQgADR3A4S-KMlz-fxQhXAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 19505}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:53:03,546]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 286
+[2017-07-13 12:53:03,547]: Getting updates: [586429570]
+[2017-07-13 12:53:03,547]: [<telegram.update.Update object at 0x03134290>]
+[2017-07-13 12:53:03,547]: Exiting: get_updates
+[2017-07-13 12:53:03,547]: Entering: get_updates
+[2017-07-13 12:53:03,548]: Processing Update: {'update_id': 586429570, 'message': {'message_id': 4, 'date': 1499939587, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '123', 'entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:53:13,621]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:53:13,622]: No new updates found.
+[2017-07-13 12:53:13,622]: []
+[2017-07-13 12:53:13,622]: Exiting: get_updates
+[2017-07-13 12:53:13,622]: Entering: get_updates
+[2017-07-13 12:53:19,559]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 347
+[2017-07-13 12:53:19,560]: Getting updates: [586429571]
+[2017-07-13 12:53:19,560]: [<telegram.update.Update object at 0x03134270>]
+[2017-07-13 12:53:19,561]: Exiting: get_updates
+[2017-07-13 12:53:19,561]: Entering: get_updates
+[2017-07-13 12:53:19,562]: Processing Update: {'update_id': 586429571, 'message': {'message_id': 5, 'date': 1499939603, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:53:29,637]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:53:29,637]: No new updates found.
+[2017-07-13 12:53:29,637]: []
+[2017-07-13 12:53:29,637]: Exiting: get_updates
+[2017-07-13 12:53:29,638]: Entering: get_updates
+[2017-07-13 12:53:39,710]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:53:39,710]: No new updates found.
+[2017-07-13 12:53:39,711]: []
+[2017-07-13 12:53:39,711]: Exiting: get_updates
+[2017-07-13 12:53:39,711]: Entering: get_updates
+[2017-07-13 12:53:49,785]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:53:49,786]: No new updates found.
+[2017-07-13 12:53:49,786]: []
+[2017-07-13 12:53:49,787]: Exiting: get_updates
+[2017-07-13 12:53:49,787]: Entering: get_updates
+[2017-07-13 12:53:59,860]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:53:59,861]: No new updates found.
+[2017-07-13 12:53:59,861]: []
+[2017-07-13 12:53:59,861]: Exiting: get_updates
+[2017-07-13 12:53:59,861]: Entering: get_updates
+[2017-07-13 12:54:09,937]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:54:09,938]: No new updates found.
+[2017-07-13 12:54:09,938]: []
+[2017-07-13 12:54:09,938]: Exiting: get_updates
+[2017-07-13 12:54:09,939]: Entering: get_updates
+[2017-07-13 12:54:20,012]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:54:20,013]: No new updates found.
+[2017-07-13 12:54:20,013]: []
+[2017-07-13 12:54:20,013]: Exiting: get_updates
+[2017-07-13 12:54:20,014]: Entering: get_updates
+[2017-07-13 12:54:30,096]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:54:30,097]: No new updates found.
+[2017-07-13 12:54:30,097]: []
+[2017-07-13 12:54:30,097]: Exiting: get_updates
+[2017-07-13 12:54:30,097]: Entering: get_updates
+[2017-07-13 12:54:40,171]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:54:40,172]: No new updates found.
+[2017-07-13 12:54:40,172]: []
+[2017-07-13 12:54:40,172]: Exiting: get_updates
+[2017-07-13 12:54:40,173]: Entering: get_updates
+[2017-07-13 12:54:50,246]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:54:50,246]: No new updates found.
+[2017-07-13 12:54:50,246]: []
+[2017-07-13 12:54:50,247]: Exiting: get_updates
+[2017-07-13 12:54:50,247]: Entering: get_updates
+[2017-07-13 12:55:00,320]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:00,321]: No new updates found.
+[2017-07-13 12:55:00,321]: []
+[2017-07-13 12:55:00,322]: Exiting: get_updates
+[2017-07-13 12:55:00,322]: Entering: get_updates
+[2017-07-13 12:55:10,395]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:10,396]: No new updates found.
+[2017-07-13 12:55:10,396]: []
+[2017-07-13 12:55:10,396]: Exiting: get_updates
+[2017-07-13 12:55:10,396]: Entering: get_updates
+[2017-07-13 12:55:20,470]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:20,471]: No new updates found.
+[2017-07-13 12:55:20,471]: []
+[2017-07-13 12:55:20,472]: Exiting: get_updates
+[2017-07-13 12:55:20,472]: Entering: get_updates
+[2017-07-13 12:55:30,545]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:30,546]: No new updates found.
+[2017-07-13 12:55:30,546]: []
+[2017-07-13 12:55:30,547]: Exiting: get_updates
+[2017-07-13 12:55:30,547]: Entering: get_updates
+[2017-07-13 12:55:40,620]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:40,621]: No new updates found.
+[2017-07-13 12:55:40,621]: []
+[2017-07-13 12:55:40,621]: Exiting: get_updates
+[2017-07-13 12:55:40,621]: Entering: get_updates
+[2017-07-13 12:55:50,696]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:55:50,697]: No new updates found.
+[2017-07-13 12:55:50,697]: []
+[2017-07-13 12:55:50,697]: Exiting: get_updates
+[2017-07-13 12:55:50,698]: Entering: get_updates
+[2017-07-13 12:56:00,770]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:56:00,771]: No new updates found.
+[2017-07-13 12:56:00,771]: []
+[2017-07-13 12:56:00,771]: Exiting: get_updates
+[2017-07-13 12:56:00,771]: Entering: get_updates
+[2017-07-13 12:56:10,845]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:56:10,845]: No new updates found.
+[2017-07-13 12:56:10,846]: []
+[2017-07-13 12:56:10,846]: Exiting: get_updates
+[2017-07-13 12:56:10,846]: Entering: get_updates
+[2017-07-13 12:56:20,919]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:56:20,919]: No new updates found.
+[2017-07-13 12:56:20,920]: []
+[2017-07-13 12:56:20,920]: Exiting: get_updates
+[2017-07-13 12:56:20,920]: Entering: get_updates
+[2017-07-13 12:56:30,994]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:56:30,994]: No new updates found.
+[2017-07-13 12:56:30,994]: []
+[2017-07-13 12:56:30,994]: Exiting: get_updates
+[2017-07-13 12:56:30,994]: Entering: get_updates
+[2017-07-13 12:56:37,830]: CUSTOM. Main module started
+[2017-07-13 12:56:37,830]: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x030AC9B0>
+[2017-07-13 12:56:37,831]: JobQueue thread started
+[2017-07-13 12:56:37,832]: dispatcher - started
+[2017-07-13 12:56:37,832]: updater - started
+[2017-07-13 12:56:37,832]: Updater thread started
+[2017-07-13 12:56:37,833]: Entering: set_webhook
+[2017-07-13 12:56:37,833]: Starting new HTTPS connection (1): api.telegram.org
+[2017-07-13 12:56:37,833]: Dispatcher started
+[2017-07-13 12:56:38,472]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/setWebhook HTTP/1.1" 200 68
+[2017-07-13 12:56:38,473]: True
+[2017-07-13 12:56:38,473]: Exiting: set_webhook
+[2017-07-13 12:56:38,473]: Entering: get_updates
+[2017-07-13 12:56:38,547]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:38,548]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:38,548]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:39,548]: Entering: get_updates
+[2017-07-13 12:56:39,618]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:39,619]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:39,619]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:40,620]: Entering: get_updates
+[2017-07-13 12:56:40,694]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:40,694]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:40,694]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:41,308]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 347
+[2017-07-13 12:56:41,309]: Getting updates: [586429572]
+[2017-07-13 12:56:41,309]: [<telegram.update.Update object at 0x0318B3B0>]
+[2017-07-13 12:56:41,310]: Exiting: get_updates
+[2017-07-13 12:56:41,310]: Entering: get_updates
+[2017-07-13 12:56:41,311]: Processing Update: {'update_id': 586429572, 'message': {'message_id': 6, 'date': 1499939804, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:56:41,312]: Entering: get_me
+[2017-07-13 12:56:41,312]: Starting new HTTPS connection (2): api.telegram.org
+[2017-07-13 12:56:41,639]: https://api.telegram.org:443 "GET /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getMe HTTP/1.1" 200 95
+[2017-07-13 12:56:41,639]: {'id': 413253541, 'first_name': 'MicroMonster', 'username': 'MicroMonster_bot'}
+[2017-07-13 12:56:41,640]: Exiting: get_me
+[2017-07-13 12:56:41,640]: Entering: send_message
+[2017-07-13 12:56:41,764]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/sendMessage HTTP/1.1" 200 527
+[2017-07-13 12:56:41,797]: Exiting: send_message
+[2017-07-13 12:56:42,194]: Entering: get_updates
+[2017-07-13 12:56:42,265]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:42,266]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:42,266]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:43,266]: Entering: get_updates
+[2017-07-13 12:56:43,340]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:43,341]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:43,341]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:45,591]: Entering: get_updates
+[2017-07-13 12:56:45,667]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:45,668]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:45,668]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:47,176]: Entering: get_updates
+[2017-07-13 12:56:47,252]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:47,253]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:47,253]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:50,628]: Entering: get_updates
+[2017-07-13 12:56:50,702]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:50,703]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:50,703]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:52,781]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 347
+[2017-07-13 12:56:52,782]: Getting updates: [586429573]
+[2017-07-13 12:56:52,782]: [<telegram.update.Update object at 0x03134450>]
+[2017-07-13 12:56:52,783]: Exiting: get_updates
+[2017-07-13 12:56:52,783]: Entering: get_updates
+[2017-07-13 12:56:52,783]: Processing Update: {'update_id': 586429573, 'message': {'message_id': 8, 'date': 1499939816, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:56:52,953]: Entering: get_updates
+[2017-07-13 12:56:53,027]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:53,027]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:53,028]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:54,028]: Entering: get_updates
+[2017-07-13 12:56:54,098]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:54,099]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:54,100]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:57,475]: Entering: get_updates
+[2017-07-13 12:56:57,550]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:57,551]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:57,551]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:59,052]: Entering: get_updates
+[2017-07-13 12:56:59,122]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:56:59,123]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:56:59,123]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:04,186]: Entering: get_updates
+[2017-07-13 12:57:04,321]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:04,322]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:04,322]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:06,572]: Entering: get_updates
+[2017-07-13 12:57:06,643]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:06,643]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:06,644]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:14,239]: Entering: get_updates
+[2017-07-13 12:57:14,323]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:14,323]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:14,324]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:17,700]: Entering: get_updates
+[2017-07-13 12:57:18,438]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:18,439]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:18,439]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:28,437]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:57:28,438]: No new updates found.
+[2017-07-13 12:57:28,438]: []
+[2017-07-13 12:57:28,438]: Exiting: get_updates
+[2017-07-13 12:57:28,439]: Entering: get_updates
+[2017-07-13 12:57:29,830]: Entering: get_updates
+[2017-07-13 12:57:29,904]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:29,904]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:29,905]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:30,905]: Entering: get_updates
+[2017-07-13 12:57:30,976]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:30,977]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:30,977]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:40,979]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:57:40,980]: No new updates found.
+[2017-07-13 12:57:40,980]: []
+[2017-07-13 12:57:40,980]: Exiting: get_updates
+[2017-07-13 12:57:40,981]: Entering: get_updates
+[2017-07-13 12:57:48,064]: Entering: get_updates
+[2017-07-13 12:57:48,138]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:48,138]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:48,139]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:49,139]: Entering: get_updates
+[2017-07-13 12:57:49,209]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:57:49,210]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:49,211]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:57:59,213]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:57:59,214]: No new updates found.
+[2017-07-13 12:57:59,214]: []
+[2017-07-13 12:57:59,214]: Exiting: get_updates
+[2017-07-13 12:57:59,214]: Entering: get_updates
+[2017-07-13 12:58:09,288]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:58:09,289]: No new updates found.
+[2017-07-13 12:58:09,289]: []
+[2017-07-13 12:58:09,289]: Exiting: get_updates
+[2017-07-13 12:58:09,290]: Entering: get_updates
+[2017-07-13 12:58:14,840]: Entering: get_updates
+[2017-07-13 12:58:14,914]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:14,914]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:14,915]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:15,915]: Entering: get_updates
+[2017-07-13 12:58:15,985]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:15,985]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:15,985]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:25,988]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:58:25,988]: No new updates found.
+[2017-07-13 12:58:25,989]: []
+[2017-07-13 12:58:25,989]: Exiting: get_updates
+[2017-07-13 12:58:25,989]: Entering: get_updates
+[2017-07-13 12:58:26,923]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:26,923]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:26,924]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:27,924]: Entering: get_updates
+[2017-07-13 12:58:29,070]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:29,070]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:29,071]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:30,571]: Entering: get_updates
+[2017-07-13 12:58:30,929]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 348
+[2017-07-13 12:58:30,930]: Getting updates: [586429575]
+[2017-07-13 12:58:30,931]: [<telegram.update.Update object at 0x03134370>]
+[2017-07-13 12:58:30,931]: Exiting: get_updates
+[2017-07-13 12:58:30,931]: Entering: get_updates
+[2017-07-13 12:58:30,932]: Processing Update: {'update_id': 586429575, 'message': {'message_id': 11, 'date': 1499939914, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:58:31,718]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:31,720]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:31,720]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:32,720]: Entering: get_updates
+[2017-07-13 12:58:34,364]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:34,365]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:34,365]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:35,865]: Entering: get_updates
+[2017-07-13 12:58:38,262]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:38,263]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:38,263]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:40,513]: Entering: get_updates
+[2017-07-13 12:58:44,034]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:44,035]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:44,035]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:47,410]: Entering: get_updates
+[2017-07-13 12:58:52,620]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:58:52,620]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:52,621]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:58:57,684]: Entering: get_updates
+[2017-07-13 12:59:01,004]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 348
+[2017-07-13 12:59:01,005]: Getting updates: [586429576]
+[2017-07-13 12:59:01,006]: [<telegram.update.Update object at 0x03134030>]
+[2017-07-13 12:59:01,006]: Exiting: get_updates
+[2017-07-13 12:59:01,006]: Entering: get_updates
+[2017-07-13 12:59:01,007]: Processing Update: {'update_id': 586429576, 'message': {'message_id': 12, 'date': 1499939944, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:59:05,424]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:05,425]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:05,425]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:06,425]: Entering: get_updates
+[2017-07-13 12:59:06,833]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 12:59:06,833]: Getting updates: [586429577]
+[2017-07-13 12:59:06,834]: [<telegram.update.Update object at 0x031340D0>]
+[2017-07-13 12:59:06,834]: Exiting: get_updates
+[2017-07-13 12:59:06,834]: Entering: get_updates
+[2017-07-13 12:59:06,834]: Processing Update: {'update_id': 586429577, 'message': {'message_id': 13, 'date': 1499939950, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADQwADR3A4S0jVRqiZIbjeAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 16368}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 12:59:16,907]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 12:59:16,908]: No new updates found.
+[2017-07-13 12:59:16,908]: []
+[2017-07-13 12:59:16,909]: Exiting: get_updates
+[2017-07-13 12:59:16,909]: Entering: get_updates
+[2017-07-13 12:59:22,154]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:22,155]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:22,155]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:23,155]: Entering: get_updates
+[2017-07-13 12:59:24,300]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:24,301]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:24,301]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:25,801]: Entering: get_updates
+[2017-07-13 12:59:27,448]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:27,449]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:27,449]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:29,699]: Entering: get_updates
+[2017-07-13 12:59:32,097]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:32,098]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:32,098]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:35,474]: Entering: get_updates
+[2017-07-13 12:59:38,991]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:38,992]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:38,992]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:44,055]: Entering: get_updates
+[2017-07-13 12:59:49,264]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 12:59:49,265]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:49,265]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 12:59:56,860]: Entering: get_updates
+[2017-07-13 13:00:06,944]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:00:06,945]: No new updates found.
+[2017-07-13 13:00:06,945]: []
+[2017-07-13 13:00:06,945]: Exiting: get_updates
+[2017-07-13 13:00:06,945]: Entering: get_updates
+[2017-07-13 13:00:08,178]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:00:08,179]: Getting updates: [586429578]
+[2017-07-13 13:00:08,179]: [<telegram.update.Update object at 0x031341D0>]
+[2017-07-13 13:00:08,179]: Exiting: get_updates
+[2017-07-13 13:00:08,179]: Entering: get_updates
+[2017-07-13 13:00:08,180]: Processing Update: {'update_id': 586429578, 'message': {'message_id': 14, 'date': 1499940011, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADRAADR3A4S1LvkNtIEd_MAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 24348}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:00:18,257]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:00:18,257]: No new updates found.
+[2017-07-13 13:00:18,257]: []
+[2017-07-13 13:00:18,258]: Exiting: get_updates
+[2017-07-13 13:00:18,258]: Entering: get_updates
+[2017-07-13 13:00:28,331]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:00:28,331]: No new updates found.
+[2017-07-13 13:00:28,332]: []
+[2017-07-13 13:00:28,332]: Exiting: get_updates
+[2017-07-13 13:00:28,332]: Entering: get_updates
+[2017-07-13 13:00:38,405]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:00:38,406]: No new updates found.
+[2017-07-13 13:00:38,406]: []
+[2017-07-13 13:00:38,407]: Exiting: get_updates
+[2017-07-13 13:00:38,407]: Entering: get_updates
+[2017-07-13 13:00:48,481]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:00:48,481]: No new updates found.
+[2017-07-13 13:00:48,481]: []
+[2017-07-13 13:00:48,482]: Exiting: get_updates
+[2017-07-13 13:00:48,482]: Entering: get_updates
+[2017-07-13 13:00:49,046]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:00:49,047]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:49,048]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:50,058]: Entering: get_updates
+[2017-07-13 13:00:51,207]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:00:51,208]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:51,208]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:52,708]: Entering: get_updates
+[2017-07-13 13:00:53,754]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:00:53,754]: Getting updates: [586429579]
+[2017-07-13 13:00:53,754]: [<telegram.update.Update object at 0x03134110>]
+[2017-07-13 13:00:53,754]: Exiting: get_updates
+[2017-07-13 13:00:53,755]: Processing Update: {'update_id': 586429579, 'message': {'message_id': 15, 'date': 1499940057, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADRQADR3A4S7j42YqgT6WgAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 20645}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:00:53,755]: Entering: get_updates
+[2017-07-13 13:00:54,354]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:00:54,355]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:54,356]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:55,355]: Entering: get_updates
+[2017-07-13 13:00:57,753]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:00:57,754]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:57,754]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:00:59,254]: Entering: get_updates
+[2017-07-13 13:01:00,400]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:00,401]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:00,401]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:02,651]: Entering: get_updates
+[2017-07-13 13:01:04,299]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:04,300]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:04,300]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:07,675]: Entering: get_updates
+[2017-07-13 13:01:10,073]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:10,073]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:10,073]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:15,136]: Entering: get_updates
+[2017-07-13 13:01:18,657]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:18,658]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:18,658]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:26,253]: Entering: get_updates
+[2017-07-13 13:01:27,399]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:27,399]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:27,400]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:38,791]: Entering: get_updates
+[2017-07-13 13:01:39,940]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:39,940]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:39,941]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:57,028]: Entering: get_updates
+[2017-07-13 13:01:58,175]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:01:58,176]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:01:58,177]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:02:23,805]: Entering: get_updates
+[2017-07-13 13:02:24,952]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:02:24,952]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:02:24,953]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:03:03,397]: Entering: get_updates
+[2017-07-13 13:03:04,544]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:03:04,544]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:03:04,545]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:03:34,546]: Entering: get_updates
+[2017-07-13 13:03:35,696]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:03:35,696]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:03:35,697]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:04:05,697]: Entering: get_updates
+[2017-07-13 13:04:06,848]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:04:06,848]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:04:06,849]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:04:36,850]: Entering: get_updates
+[2017-07-13 13:04:37,998]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:04:37,998]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:04:37,999]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:05:08,000]: Entering: get_updates
+[2017-07-13 13:05:09,146]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:05:09,147]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:05:09,148]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:05:39,147]: Entering: get_updates
+[2017-07-13 13:05:40,292]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:05:40,293]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:05:40,293]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:06:10,294]: Entering: get_updates
+[2017-07-13 13:06:11,439]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:06:11,440]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:06:11,440]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:06:41,441]: Entering: get_updates
+[2017-07-13 13:06:42,586]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:06:42,586]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:06:42,587]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:07:12,587]: Entering: get_updates
+[2017-07-13 13:07:13,732]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:07:13,733]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:07:13,733]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:07:43,733]: Entering: get_updates
+[2017-07-13 13:07:44,882]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:07:44,882]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:07:44,883]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:08:14,884]: Entering: get_updates
+[2017-07-13 13:08:16,198]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:08:16,198]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:08:16,199]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:08:46,200]: Entering: get_updates
+[2017-07-13 13:08:47,341]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:08:47,342]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:08:47,342]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:09:17,343]: Entering: get_updates
+[2017-07-13 13:09:18,483]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:09:18,484]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:09:18,484]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:09:48,485]: Entering: get_updates
+[2017-07-13 13:09:49,626]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:09:49,627]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:09:49,627]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:10:19,627]: Entering: get_updates
+[2017-07-13 13:10:20,767]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:10:20,768]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:10:20,769]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:10:50,769]: Entering: get_updates
+[2017-07-13 13:10:51,913]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:10:51,914]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:10:51,915]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:21,915]: Entering: get_updates
+[2017-07-13 13:11:23,060]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:11:23,061]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:23,061]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:53,062]: Entering: get_updates
+[2017-07-13 13:11:53,135]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:11:53,136]: Getting updates: [586429594]
+[2017-07-13 13:11:53,136]: [<telegram.update.Update object at 0x03134030>]
+[2017-07-13 13:11:53,136]: Exiting: get_updates
+[2017-07-13 13:11:53,137]: Entering: get_updates
+[2017-07-13 13:11:53,137]: Processing Update: {'update_id': 586429594, 'message': {'message_id': 30, 'date': 1499940712, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADVgADR3A4S_RvILiDnMwhAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 17487}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:11:56,839]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:11:56,840]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:56,840]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:57,840]: Entering: get_updates
+[2017-07-13 13:11:58,981]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:11:58,982]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:11:58,983]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:00,482]: Entering: get_updates
+[2017-07-13 13:12:02,125]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:12:02,125]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:02,126]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:04,376]: Entering: get_updates
+[2017-07-13 13:12:05,579]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:12:05,579]: Getting updates: [586429595]
+[2017-07-13 13:12:05,580]: [<telegram.update.Update object at 0x031342B0>]
+[2017-07-13 13:12:05,580]: Exiting: get_updates
+[2017-07-13 13:12:05,580]: Entering: get_updates
+[2017-07-13 13:12:05,580]: Processing Update: {'update_id': 586429595, 'message': {'message_id': 31, 'date': 1499940729, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADVwADR3A4S0NbuUy_-hCEAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 17045}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:12:05,581]: Resetting dropped connection: api.telegram.org
+[2017-07-13 13:12:06,785]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:12:06,786]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:06,786]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:07,787]: Entering: get_updates
+[2017-07-13 13:12:11,301]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:12:11,302]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:11,302]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:12:12,802]: Entering: get_updates
+[2017-07-13 13:12:22,872]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:12:22,873]: No new updates found.
+[2017-07-13 13:12:22,873]: []
+[2017-07-13 13:12:22,874]: Exiting: get_updates
+[2017-07-13 13:12:22,874]: Entering: get_updates
+[2017-07-13 13:12:32,945]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:12:32,946]: No new updates found.
+[2017-07-13 13:12:32,946]: []
+[2017-07-13 13:12:32,946]: Exiting: get_updates
+[2017-07-13 13:12:32,946]: Entering: get_updates
+[2017-07-13 13:12:43,018]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:12:43,019]: No new updates found.
+[2017-07-13 13:12:43,019]: []
+[2017-07-13 13:12:43,019]: Exiting: get_updates
+[2017-07-13 13:12:43,020]: Entering: get_updates
+[2017-07-13 13:12:53,092]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:12:53,093]: No new updates found.
+[2017-07-13 13:12:53,093]: []
+[2017-07-13 13:12:53,093]: Exiting: get_updates
+[2017-07-13 13:12:53,093]: Entering: get_updates
+[2017-07-13 13:13:03,164]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:13:03,165]: No new updates found.
+[2017-07-13 13:13:03,165]: []
+[2017-07-13 13:13:03,165]: Exiting: get_updates
+[2017-07-13 13:13:03,166]: Entering: get_updates
+[2017-07-13 13:13:12,505]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:12,505]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:12,506]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:13,505]: Entering: get_updates
+[2017-07-13 13:13:14,646]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:14,646]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:14,647]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:16,147]: Entering: get_updates
+[2017-07-13 13:13:17,795]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:13:17,796]: Getting updates: [586429596]
+[2017-07-13 13:13:17,796]: [<telegram.update.Update object at 0x03134210>]
+[2017-07-13 13:13:17,796]: Exiting: get_updates
+[2017-07-13 13:13:17,798]: Entering: get_updates
+[2017-07-13 13:13:17,799]: Processing Update: {'update_id': 586429596, 'message': {'message_id': 32, 'date': 1499940801, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADWAADR3A4S-emM5pmPZxRAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 20287}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:13:18,102]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:18,102]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:18,103]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:19,102]: Entering: get_updates
+[2017-07-13 13:13:20,243]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:20,244]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:20,244]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:21,744]: Entering: get_updates
+[2017-07-13 13:13:23,385]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:23,386]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:23,387]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:25,636]: Entering: get_updates
+[2017-07-13 13:13:28,029]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:28,029]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:28,030]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:31,405]: Entering: get_updates
+[2017-07-13 13:13:34,923]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:34,923]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:34,924]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:39,986]: Entering: get_updates
+[2017-07-13 13:13:46,605]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:13:46,606]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:46,606]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:13:54,201]: Entering: get_updates
+[2017-07-13 13:14:01,937]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:14:01,938]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:01,938]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:13,330]: Entering: get_updates
+[2017-07-13 13:14:14,471]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:14:14,471]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:14,472]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:31,559]: Entering: get_updates
+[2017-07-13 13:14:32,699]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:14:32,700]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:32,700]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:58,329]: Entering: get_updates
+[2017-07-13 13:14:58,399]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:14:58,399]: Getting updates: [586429597]
+[2017-07-13 13:14:58,400]: [<telegram.update.Update object at 0x031341B0>]
+[2017-07-13 13:14:58,400]: Exiting: get_updates
+[2017-07-13 13:14:58,400]: Processing Update: {'update_id': 586429597, 'message': {'message_id': 33, 'date': 1499940890, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADWQADR3A4SzeRJvClUbHeAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 21491}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:14:58,400]: Entering: get_updates
+[2017-07-13 13:14:58,709]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:14:58,709]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:58,709]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:14:59,709]: Entering: get_updates
+[2017-07-13 13:15:00,849]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:00,849]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:00,850]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:02,351]: Entering: get_updates
+[2017-07-13 13:15:03,992]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:03,992]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:03,993]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:06,243]: Entering: get_updates
+[2017-07-13 13:15:06,642]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:15:06,643]: Getting updates: [586429598]
+[2017-07-13 13:15:06,643]: [<telegram.update.Update object at 0x03134450>]
+[2017-07-13 13:15:06,643]: Exiting: get_updates
+[2017-07-13 13:15:06,643]: Processing Update: {'update_id': 586429598, 'message': {'message_id': 34, 'date': 1499940910, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADWgADR3A4S2Ise-FL-1CIAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 19350}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:15:06,644]: Entering: get_updates
+[2017-07-13 13:15:08,633]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:08,634]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:08,635]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:09,634]: Entering: get_updates
+[2017-07-13 13:15:14,348]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:14,348]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:14,349]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:15,849]: Entering: get_updates
+[2017-07-13 13:15:17,021]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:15:17,021]: Getting updates: [586429599]
+[2017-07-13 13:15:17,022]: [<telegram.update.Update object at 0x03134390>]
+[2017-07-13 13:15:17,022]: Exiting: get_updates
+[2017-07-13 13:15:17,022]: Processing Update: {'update_id': 586429599, 'message': {'message_id': 35, 'date': 1499940920, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADWwADR3A4S5Ge8k1SExu4Ag', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 12407}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:15:17,023]: Entering: get_updates
+[2017-07-13 13:15:17,895]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:17,896]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:17,896]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:18,896]: Entering: get_updates
+[2017-07-13 13:15:20,536]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:20,536]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:20,537]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:22,037]: Entering: get_updates
+[2017-07-13 13:15:24,425]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:24,426]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:24,426]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:26,676]: Entering: get_updates
+[2017-07-13 13:15:30,197]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:30,198]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:30,199]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:33,573]: Entering: get_updates
+[2017-07-13 13:15:34,714]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:34,715]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:34,715]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:39,779]: Entering: get_updates
+[2017-07-13 13:15:41,417]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:41,417]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:41,418]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:49,012]: Entering: get_updates
+[2017-07-13 13:15:50,153]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:15:50,154]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:15:50,154]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:01,546]: Entering: get_updates
+[2017-07-13 13:16:02,685]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:16:02,686]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:02,686]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:19,773]: Entering: get_updates
+[2017-07-13 13:16:25,442]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:16:25,443]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:25,443]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:51,073]: Entering: get_updates
+[2017-07-13 13:16:52,217]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:16:52,217]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:16:52,218]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:17:30,662]: Entering: get_updates
+[2017-07-13 13:17:31,802]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:17:31,803]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:17:31,803]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:18:01,804]: Entering: get_updates
+[2017-07-13 13:18:02,941]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:18:02,942]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:18:02,942]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:18:32,943]: Entering: get_updates
+[2017-07-13 13:18:34,084]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:18:34,085]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:18:34,085]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:19:04,085]: Entering: get_updates
+[2017-07-13 13:19:05,229]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:19:05,230]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:19:05,231]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:19:35,231]: Entering: get_updates
+[2017-07-13 13:19:36,373]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:19:36,374]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:19:36,375]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:20:06,375]: Entering: get_updates
+[2017-07-13 13:20:07,514]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:20:07,515]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:20:07,515]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:20:37,516]: Entering: get_updates
+[2017-07-13 13:20:38,654]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:20:38,655]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:20:38,655]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:21:08,655]: Entering: get_updates
+[2017-07-13 13:21:09,795]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:21:09,796]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:21:09,796]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:21:39,796]: Entering: get_updates
+[2017-07-13 13:21:49,868]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:21:49,869]: No new updates found.
+[2017-07-13 13:21:49,869]: []
+[2017-07-13 13:21:49,869]: Exiting: get_updates
+[2017-07-13 13:21:49,870]: Entering: get_updates
+[2017-07-13 13:21:59,947]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:21:59,947]: No new updates found.
+[2017-07-13 13:21:59,947]: []
+[2017-07-13 13:21:59,947]: Exiting: get_updates
+[2017-07-13 13:21:59,956]: Entering: get_updates
+[2017-07-13 13:22:10,028]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:22:10,029]: No new updates found.
+[2017-07-13 13:22:10,029]: []
+[2017-07-13 13:22:10,029]: Exiting: get_updates
+[2017-07-13 13:22:10,030]: Entering: get_updates
+[2017-07-13 13:22:20,131]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:22:20,132]: No new updates found.
+[2017-07-13 13:22:20,132]: []
+[2017-07-13 13:22:20,133]: Exiting: get_updates
+[2017-07-13 13:22:20,133]: Entering: get_updates
+[2017-07-13 13:22:30,203]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:22:30,204]: No new updates found.
+[2017-07-13 13:22:30,204]: []
+[2017-07-13 13:22:30,204]: Exiting: get_updates
+[2017-07-13 13:22:30,205]: Entering: get_updates
+[2017-07-13 13:22:40,276]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:22:40,277]: No new updates found.
+[2017-07-13 13:22:40,277]: []
+[2017-07-13 13:22:40,277]: Exiting: get_updates
+[2017-07-13 13:22:40,277]: Entering: get_updates
+[2017-07-13 13:22:48,627]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:22:48,627]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:48,628]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:49,628]: Entering: get_updates
+[2017-07-13 13:22:50,758]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:22:50,759]: Getting updates: [586429609]
+[2017-07-13 13:22:50,759]: [<telegram.update.Update object at 0x031343D0>]
+[2017-07-13 13:22:50,759]: Exiting: get_updates
+[2017-07-13 13:22:50,759]: Entering: get_updates
+[2017-07-13 13:22:50,759]: Processing Update: {'update_id': 586429609, 'message': {'message_id': 45, 'date': 1499941374, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADZQADR3A4S82KQCoTUR7MAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 12464}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:22:50,834]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:22:50,834]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:50,835]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:51,835]: Entering: get_updates
+[2017-07-13 13:22:52,974]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:22:52,975]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:52,975]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:54,476]: Entering: get_updates
+[2017-07-13 13:22:56,114]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:22:56,115]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:56,115]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:22:58,365]: Entering: get_updates
+[2017-07-13 13:23:00,753]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:00,754]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:00,754]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:04,129]: Entering: get_updates
+[2017-07-13 13:23:05,430]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 383
+[2017-07-13 13:23:05,431]: Getting updates: [586429610]
+[2017-07-13 13:23:05,431]: [<telegram.update.Update object at 0x03134410>]
+[2017-07-13 13:23:05,432]: Exiting: get_updates
+[2017-07-13 13:23:05,432]: Entering: get_updates
+[2017-07-13 13:23:05,433]: Processing Update: {'update_id': 586429610, 'message': {'message_id': 46, 'date': 1499941389, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADZgADR3A4S2ePAAFbmWAkuAI', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 16539}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:23:07,643]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:07,644]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:07,644]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:08,644]: Entering: get_updates
+[2017-07-13 13:23:18,718]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:23:18,718]: No new updates found.
+[2017-07-13 13:23:18,718]: []
+[2017-07-13 13:23:18,719]: Exiting: get_updates
+[2017-07-13 13:23:18,719]: Entering: get_updates
+[2017-07-13 13:23:18,815]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:23:18,815]: Getting updates: [586429611]
+[2017-07-13 13:23:18,816]: [<telegram.update.Update object at 0x03134130>]
+[2017-07-13 13:23:18,816]: Exiting: get_updates
+[2017-07-13 13:23:18,816]: Processing Update: {'update_id': 586429611, 'message': {'message_id': 47, 'date': 1499941402, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADZwADR3A4S_MP-77KwlrtAg', 'duration': 4, 'mime_type': 'audio/ogg', 'file_size': 26958}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:23:18,816]: Entering: get_updates
+[2017-07-13 13:23:23,424]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:23,424]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:23,425]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:24,425]: Entering: get_updates
+[2017-07-13 13:23:25,564]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:25,565]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:25,566]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:27,065]: Entering: get_updates
+[2017-07-13 13:23:27,660]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:23:27,661]: Getting updates: [586429612]
+[2017-07-13 13:23:27,661]: [<telegram.update.Update object at 0x03134330>]
+[2017-07-13 13:23:27,661]: Exiting: get_updates
+[2017-07-13 13:23:27,661]: Processing Update: {'update_id': 586429612, 'message': {'message_id': 48, 'date': 1499941411, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADaAADR3A4SyP2o3WscQ17Ag', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 22450}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:23:27,661]: Entering: get_updates
+[2017-07-13 13:23:28,704]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:28,704]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:28,705]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:29,705]: Entering: get_updates
+[2017-07-13 13:23:32,093]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:32,093]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:32,093]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:33,593]: Entering: get_updates
+[2017-07-13 13:23:34,733]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:34,733]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:34,734]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:36,984]: Entering: get_updates
+[2017-07-13 13:23:38,082]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:38,083]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:38,083]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:41,458]: Entering: get_updates
+[2017-07-13 13:23:41,851]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:23:41,851]: Getting updates: [586429613]
+[2017-07-13 13:23:41,852]: [<telegram.update.Update object at 0x03134390>]
+[2017-07-13 13:23:41,852]: Exiting: get_updates
+[2017-07-13 13:23:41,852]: Entering: get_updates
+[2017-07-13 13:23:41,853]: Processing Update: {'update_id': 586429613, 'message': {'message_id': 49, 'date': 1499941425, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADaQADR3A4SxWlD7guSv83Ag', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 20348}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:23:42,184]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:42,184]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:42,184]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:43,184]: Entering: get_updates
+[2017-07-13 13:23:44,826]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:44,826]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:44,827]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:46,327]: Entering: get_updates
+[2017-07-13 13:23:46,952]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 381
+[2017-07-13 13:23:46,952]: Getting updates: [586429614]
+[2017-07-13 13:23:46,953]: [<telegram.update.Update object at 0x03134230>]
+[2017-07-13 13:23:46,953]: Exiting: get_updates
+[2017-07-13 13:23:46,953]: Entering: get_updates
+[2017-07-13 13:23:46,953]: Processing Update: {'update_id': 586429614, 'message': {'message_id': 50, 'date': 1499941430, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADagADR3A4SybJFsJh-r9kAg', 'duration': 1, 'mime_type': 'audio/ogg', 'file_size': 8714}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:23:48,862]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:48,863]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:48,863]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:49,863]: Entering: get_updates
+[2017-07-13 13:23:50,262]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:23:50,263]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:50,263]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:23:51,763]: Entering: get_updates
+[2017-07-13 13:24:01,833]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:24:01,834]: No new updates found.
+[2017-07-13 13:24:01,834]: []
+[2017-07-13 13:24:01,834]: Exiting: get_updates
+[2017-07-13 13:24:01,835]: Entering: get_updates
+[2017-07-13 13:24:03,292]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:03,293]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:03,293]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:04,294]: Entering: get_updates
+[2017-07-13 13:24:10,688]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:10,688]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:10,689]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:12,189]: Entering: get_updates
+[2017-07-13 13:24:13,326]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:13,327]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:13,327]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:15,577]: Entering: get_updates
+[2017-07-13 13:24:17,195]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:17,195]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:17,196]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:20,571]: Entering: get_updates
+[2017-07-13 13:24:21,518]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:21,519]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:21,519]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:26,582]: Entering: get_updates
+[2017-07-13 13:24:28,979]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:28,980]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:28,981]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:36,574]: Entering: get_updates
+[2017-07-13 13:24:40,103]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:40,104]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:40,104]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:51,495]: Entering: get_updates
+[2017-07-13 13:24:53,050]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:24:53,051]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:24:53,051]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:10,138]: Entering: get_updates
+[2017-07-13 13:25:11,283]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:25:11,284]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:11,284]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:36,914]: Entering: get_updates
+[2017-07-13 13:25:38,049]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:25:38,049]: Getting updates: [586429616]
+[2017-07-13 13:25:38,050]: [<telegram.update.Update object at 0x03134450>]
+[2017-07-13 13:25:38,050]: Exiting: get_updates
+[2017-07-13 13:25:38,050]: Processing Update: {'update_id': 586429616, 'message': {'message_id': 52, 'date': 1499941541, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADbAADR3A4S2yGpKA0LBr1Ag', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 17242}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:25:38,050]: Entering: get_updates
+[2017-07-13 13:25:46,473]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:25:46,474]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:46,475]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:47,474]: Entering: get_updates
+[2017-07-13 13:25:48,611]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:25:48,612]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:48,612]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:50,113]: Entering: get_updates
+[2017-07-13 13:25:52,872]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:25:52,872]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:52,873]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:55,123]: Entering: get_updates
+[2017-07-13 13:25:56,262]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:25:56,263]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:56,263]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:25:59,638]: Entering: get_updates
+[2017-07-13 13:26:00,775]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:00,776]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:00,776]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:05,839]: Entering: get_updates
+[2017-07-13 13:26:08,226]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:08,227]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:08,228]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:15,821]: Entering: get_updates
+[2017-07-13 13:26:25,893]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:26:25,893]: No new updates found.
+[2017-07-13 13:26:25,894]: []
+[2017-07-13 13:26:25,894]: Exiting: get_updates
+[2017-07-13 13:26:25,894]: Entering: get_updates
+[2017-07-13 13:26:32,855]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:32,856]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:32,856]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:33,856]: Entering: get_updates
+[2017-07-13 13:26:35,002]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:35,003]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:35,003]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:36,503]: Entering: get_updates
+[2017-07-13 13:26:37,607]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:26:37,608]: Getting updates: [586429618]
+[2017-07-13 13:26:37,609]: [<telegram.update.Update object at 0x031343F0>]
+[2017-07-13 13:26:37,609]: Exiting: get_updates
+[2017-07-13 13:26:37,609]: Processing Update: {'update_id': 586429618, 'message': {'message_id': 54, 'date': 1499941601, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADbgADR3A4S8m-g4uJ19EqAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 20732}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:26:37,609]: Entering: get_updates
+[2017-07-13 13:26:38,143]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:38,143]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:38,144]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:39,143]: Entering: get_updates
+[2017-07-13 13:26:41,532]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:41,532]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:41,533]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:43,033]: Entering: get_updates
+[2017-07-13 13:26:48,333]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:48,334]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:48,334]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:50,584]: Entering: get_updates
+[2017-07-13 13:26:51,724]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:51,725]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:51,725]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:55,100]: Entering: get_updates
+[2017-07-13 13:26:56,241]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:26:56,242]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:26:56,243]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:01,306]: Entering: get_updates
+[2017-07-13 13:27:01,306]: Resetting dropped connection: api.telegram.org
+[2017-07-13 13:27:03,181]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:27:03,182]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:03,182]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:10,776]: Entering: get_updates
+[2017-07-13 13:27:14,293]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:27:14,294]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:14,294]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:25,686]: Entering: get_updates
+[2017-07-13 13:27:26,323]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:27:26,323]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:26,324]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:27:43,411]: Entering: get_updates
+[2017-07-13 13:27:53,484]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:27:53,485]: No new updates found.
+[2017-07-13 13:27:53,485]: []
+[2017-07-13 13:27:53,485]: Exiting: get_updates
+[2017-07-13 13:27:53,486]: Entering: get_updates
+[2017-07-13 13:28:03,558]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:28:03,558]: No new updates found.
+[2017-07-13 13:28:03,558]: []
+[2017-07-13 13:28:03,558]: Exiting: get_updates
+[2017-07-13 13:28:03,559]: Entering: get_updates
+[2017-07-13 13:28:13,551]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:28:13,552]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:28:13,552]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:28:14,552]: Entering: get_updates
+[2017-07-13 13:28:24,623]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:28:24,624]: No new updates found.
+[2017-07-13 13:28:24,624]: []
+[2017-07-13 13:28:24,625]: Exiting: get_updates
+[2017-07-13 13:28:24,625]: Entering: get_updates
+[2017-07-13 13:28:34,698]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:28:34,699]: No new updates found.
+[2017-07-13 13:28:34,699]: []
+[2017-07-13 13:28:34,700]: Exiting: get_updates
+[2017-07-13 13:28:34,700]: Entering: get_updates
+[2017-07-13 13:28:44,706]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:28:44,707]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:28:44,707]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:28:45,707]: Entering: get_updates
+[2017-07-13 13:28:56,693]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:28:56,693]: No new updates found.
+[2017-07-13 13:28:56,694]: []
+[2017-07-13 13:28:56,694]: Exiting: get_updates
+[2017-07-13 13:28:56,694]: Entering: get_updates
+[2017-07-13 13:29:06,767]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:29:06,768]: No new updates found.
+[2017-07-13 13:29:06,768]: []
+[2017-07-13 13:29:06,768]: Exiting: get_updates
+[2017-07-13 13:29:06,768]: Entering: get_updates
+[2017-07-13 13:29:16,765]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:29:16,766]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:29:16,766]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:29:17,766]: Entering: get_updates
+[2017-07-13 13:29:27,840]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:29:27,841]: No new updates found.
+[2017-07-13 13:29:27,841]: []
+[2017-07-13 13:29:27,841]: Exiting: get_updates
+[2017-07-13 13:29:27,842]: Entering: get_updates
+[2017-07-13 13:29:37,914]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:29:37,915]: No new updates found.
+[2017-07-13 13:29:37,915]: []
+[2017-07-13 13:29:37,915]: Exiting: get_updates
+[2017-07-13 13:29:37,915]: Entering: get_updates
+[2017-07-13 13:29:47,907]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:29:47,908]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:29:47,910]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:29:48,908]: Entering: get_updates
+[2017-07-13 13:29:58,981]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:29:58,982]: No new updates found.
+[2017-07-13 13:29:58,982]: []
+[2017-07-13 13:29:58,982]: Exiting: get_updates
+[2017-07-13 13:29:58,983]: Entering: get_updates
+[2017-07-13 13:30:09,054]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:30:09,055]: No new updates found.
+[2017-07-13 13:30:09,055]: []
+[2017-07-13 13:30:09,056]: Exiting: get_updates
+[2017-07-13 13:30:09,056]: Entering: get_updates
+[2017-07-13 13:30:19,048]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:30:19,049]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:30:19,049]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:30:20,049]: Entering: get_updates
+[2017-07-13 13:30:30,122]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:30:30,122]: No new updates found.
+[2017-07-13 13:30:30,122]: []
+[2017-07-13 13:30:30,122]: Exiting: get_updates
+[2017-07-13 13:30:30,123]: Entering: get_updates
+[2017-07-13 13:30:40,194]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:30:40,195]: No new updates found.
+[2017-07-13 13:30:40,195]: []
+[2017-07-13 13:30:40,195]: Exiting: get_updates
+[2017-07-13 13:30:40,196]: Entering: get_updates
+[2017-07-13 13:30:50,189]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:30:50,190]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:30:50,190]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:30:51,190]: Entering: get_updates
+[2017-07-13 13:31:01,262]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:31:01,262]: No new updates found.
+[2017-07-13 13:31:01,262]: []
+[2017-07-13 13:31:01,262]: Exiting: get_updates
+[2017-07-13 13:31:01,263]: Entering: get_updates
+[2017-07-13 13:31:11,336]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:31:11,336]: No new updates found.
+[2017-07-13 13:31:11,336]: []
+[2017-07-13 13:31:11,336]: Exiting: get_updates
+[2017-07-13 13:31:11,336]: Entering: get_updates
+[2017-07-13 13:31:21,331]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:31:21,331]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:31:21,332]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:31:22,332]: Entering: get_updates
+[2017-07-13 13:31:32,404]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:31:32,404]: No new updates found.
+[2017-07-13 13:31:32,405]: []
+[2017-07-13 13:31:32,405]: Exiting: get_updates
+[2017-07-13 13:31:32,405]: Entering: get_updates
+[2017-07-13 13:31:42,478]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:31:42,479]: No new updates found.
+[2017-07-13 13:31:42,479]: []
+[2017-07-13 13:31:42,479]: Exiting: get_updates
+[2017-07-13 13:31:42,480]: Entering: get_updates
+[2017-07-13 13:31:52,472]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:31:52,472]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:31:52,473]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:31:53,473]: Entering: get_updates
+[2017-07-13 13:32:03,545]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:32:03,546]: No new updates found.
+[2017-07-13 13:32:03,546]: []
+[2017-07-13 13:32:03,546]: Exiting: get_updates
+[2017-07-13 13:32:03,546]: Entering: get_updates
+[2017-07-13 13:32:13,619]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:32:13,620]: No new updates found.
+[2017-07-13 13:32:13,620]: []
+[2017-07-13 13:32:13,620]: Exiting: get_updates
+[2017-07-13 13:32:13,621]: Entering: get_updates
+[2017-07-13 13:32:23,612]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:32:23,613]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:32:23,613]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:32:24,613]: Entering: get_updates
+[2017-07-13 13:32:34,688]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:32:34,689]: No new updates found.
+[2017-07-13 13:32:34,689]: []
+[2017-07-13 13:32:34,689]: Exiting: get_updates
+[2017-07-13 13:32:34,690]: Entering: get_updates
+[2017-07-13 13:32:44,762]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:32:44,762]: No new updates found.
+[2017-07-13 13:32:44,763]: []
+[2017-07-13 13:32:44,763]: Exiting: get_updates
+[2017-07-13 13:32:44,763]: Entering: get_updates
+[2017-07-13 13:32:54,757]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:32:54,758]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:32:54,758]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:32:55,758]: Entering: get_updates
+[2017-07-13 13:33:05,830]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:33:05,830]: No new updates found.
+[2017-07-13 13:33:05,830]: []
+[2017-07-13 13:33:05,830]: Exiting: get_updates
+[2017-07-13 13:33:05,831]: Entering: get_updates
+[2017-07-13 13:33:16,277]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:33:16,278]: No new updates found.
+[2017-07-13 13:33:16,278]: []
+[2017-07-13 13:33:16,278]: Exiting: get_updates
+[2017-07-13 13:33:16,278]: Entering: get_updates
+[2017-07-13 13:33:25,899]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:33:25,899]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:33:25,900]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:33:26,900]: Entering: get_updates
+[2017-07-13 13:33:36,973]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:33:36,973]: No new updates found.
+[2017-07-13 13:33:36,974]: []
+[2017-07-13 13:33:36,974]: Exiting: get_updates
+[2017-07-13 13:33:36,974]: Entering: get_updates
+[2017-07-13 13:33:47,047]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:33:47,048]: No new updates found.
+[2017-07-13 13:33:47,048]: []
+[2017-07-13 13:33:47,048]: Exiting: get_updates
+[2017-07-13 13:33:47,049]: Entering: get_updates
+[2017-07-13 13:33:57,042]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:33:57,042]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:33:57,043]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:33:58,043]: Entering: get_updates
+[2017-07-13 13:34:08,116]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:34:08,116]: No new updates found.
+[2017-07-13 13:34:08,117]: []
+[2017-07-13 13:34:08,117]: Exiting: get_updates
+[2017-07-13 13:34:08,117]: Entering: get_updates
+[2017-07-13 13:34:18,190]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:34:18,191]: No new updates found.
+[2017-07-13 13:34:18,191]: []
+[2017-07-13 13:34:18,191]: Exiting: get_updates
+[2017-07-13 13:34:18,192]: Entering: get_updates
+[2017-07-13 13:34:28,183]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:34:28,183]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:34:28,184]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:34:29,183]: Entering: get_updates
+[2017-07-13 13:34:39,256]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:34:39,257]: No new updates found.
+[2017-07-13 13:34:39,257]: []
+[2017-07-13 13:34:39,257]: Exiting: get_updates
+[2017-07-13 13:34:39,258]: Entering: get_updates
+[2017-07-13 13:34:49,329]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:34:49,330]: No new updates found.
+[2017-07-13 13:34:49,330]: []
+[2017-07-13 13:34:49,330]: Exiting: get_updates
+[2017-07-13 13:34:49,330]: Entering: get_updates
+[2017-07-13 13:34:59,325]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:34:59,326]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:34:59,326]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:35:00,326]: Entering: get_updates
+[2017-07-13 13:35:10,401]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:35:10,401]: No new updates found.
+[2017-07-13 13:35:10,401]: []
+[2017-07-13 13:35:10,401]: Exiting: get_updates
+[2017-07-13 13:35:10,402]: Entering: get_updates
+[2017-07-13 13:35:20,472]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:35:20,473]: No new updates found.
+[2017-07-13 13:35:20,473]: []
+[2017-07-13 13:35:20,474]: Exiting: get_updates
+[2017-07-13 13:35:20,474]: Entering: get_updates
+[2017-07-13 13:35:30,467]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:35:30,468]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:35:30,469]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:35:31,468]: Entering: get_updates
+[2017-07-13 13:35:41,541]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:35:41,542]: No new updates found.
+[2017-07-13 13:35:41,542]: []
+[2017-07-13 13:35:41,542]: Exiting: get_updates
+[2017-07-13 13:35:41,542]: Entering: get_updates
+[2017-07-13 13:35:51,617]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:35:51,617]: No new updates found.
+[2017-07-13 13:35:51,618]: []
+[2017-07-13 13:35:51,618]: Exiting: get_updates
+[2017-07-13 13:35:51,618]: Entering: get_updates
+[2017-07-13 13:36:01,609]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:36:01,609]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:36:01,610]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:36:02,610]: Entering: get_updates
+[2017-07-13 13:36:12,682]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:36:12,682]: No new updates found.
+[2017-07-13 13:36:12,682]: []
+[2017-07-13 13:36:12,683]: Exiting: get_updates
+[2017-07-13 13:36:12,683]: Entering: get_updates
+[2017-07-13 13:36:22,756]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:36:22,756]: No new updates found.
+[2017-07-13 13:36:22,757]: []
+[2017-07-13 13:36:22,757]: Exiting: get_updates
+[2017-07-13 13:36:22,757]: Entering: get_updates
+[2017-07-13 13:36:32,750]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:36:32,751]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:36:32,751]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:36:33,751]: Entering: get_updates
+[2017-07-13 13:36:43,824]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:36:43,824]: No new updates found.
+[2017-07-13 13:36:43,825]: []
+[2017-07-13 13:36:43,825]: Exiting: get_updates
+[2017-07-13 13:36:43,825]: Entering: get_updates
+[2017-07-13 13:36:53,898]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:36:53,899]: No new updates found.
+[2017-07-13 13:36:53,899]: []
+[2017-07-13 13:36:53,899]: Exiting: get_updates
+[2017-07-13 13:36:53,900]: Entering: get_updates
+[2017-07-13 13:37:03,891]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:37:03,892]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:37:03,892]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:37:04,892]: Entering: get_updates
+[2017-07-13 13:37:14,965]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:37:14,965]: No new updates found.
+[2017-07-13 13:37:14,966]: []
+[2017-07-13 13:37:14,966]: Exiting: get_updates
+[2017-07-13 13:37:14,966]: Entering: get_updates
+[2017-07-13 13:37:25,039]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:37:25,039]: No new updates found.
+[2017-07-13 13:37:25,039]: []
+[2017-07-13 13:37:25,040]: Exiting: get_updates
+[2017-07-13 13:37:25,040]: Entering: get_updates
+[2017-07-13 13:37:35,034]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:37:35,035]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:37:35,035]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:37:36,035]: Entering: get_updates
+[2017-07-13 13:37:46,113]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:37:46,114]: No new updates found.
+[2017-07-13 13:37:46,114]: []
+[2017-07-13 13:37:46,114]: Exiting: get_updates
+[2017-07-13 13:37:46,114]: Entering: get_updates
+[2017-07-13 13:37:56,185]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:37:56,186]: No new updates found.
+[2017-07-13 13:37:56,186]: []
+[2017-07-13 13:37:56,186]: Exiting: get_updates
+[2017-07-13 13:37:56,186]: Entering: get_updates
+[2017-07-13 13:38:06,176]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:38:06,177]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:38:06,177]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:38:07,177]: Entering: get_updates
+[2017-07-13 13:38:17,249]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:38:17,250]: No new updates found.
+[2017-07-13 13:38:17,250]: []
+[2017-07-13 13:38:17,251]: Exiting: get_updates
+[2017-07-13 13:38:17,251]: Entering: get_updates
+[2017-07-13 13:38:27,324]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:38:27,324]: No new updates found.
+[2017-07-13 13:38:27,324]: []
+[2017-07-13 13:38:27,324]: Exiting: get_updates
+[2017-07-13 13:38:27,325]: Entering: get_updates
+[2017-07-13 13:38:37,317]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:38:37,317]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:38:37,318]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:38:38,319]: Entering: get_updates
+[2017-07-13 13:38:48,391]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:38:48,391]: No new updates found.
+[2017-07-13 13:38:48,392]: []
+[2017-07-13 13:38:48,392]: Exiting: get_updates
+[2017-07-13 13:38:48,392]: Entering: get_updates
+[2017-07-13 13:38:58,466]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:38:58,466]: No new updates found.
+[2017-07-13 13:38:58,467]: []
+[2017-07-13 13:38:58,467]: Exiting: get_updates
+[2017-07-13 13:38:58,467]: Entering: get_updates
+[2017-07-13 13:39:08,459]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:39:08,460]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:39:08,460]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:39:09,460]: Entering: get_updates
+[2017-07-13 13:39:19,532]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:39:19,533]: No new updates found.
+[2017-07-13 13:39:19,533]: []
+[2017-07-13 13:39:19,534]: Exiting: get_updates
+[2017-07-13 13:39:19,534]: Entering: get_updates
+[2017-07-13 13:39:29,606]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:39:29,607]: No new updates found.
+[2017-07-13 13:39:29,607]: []
+[2017-07-13 13:39:29,608]: Exiting: get_updates
+[2017-07-13 13:39:29,608]: Entering: get_updates
+[2017-07-13 13:39:39,600]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:39:39,601]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:39:39,601]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:39:40,601]: Entering: get_updates
+[2017-07-13 13:39:50,676]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:39:50,677]: No new updates found.
+[2017-07-13 13:39:50,677]: []
+[2017-07-13 13:39:50,677]: Exiting: get_updates
+[2017-07-13 13:39:50,678]: Entering: get_updates
+[2017-07-13 13:40:00,750]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:40:00,751]: No new updates found.
+[2017-07-13 13:40:00,751]: []
+[2017-07-13 13:40:00,751]: Exiting: get_updates
+[2017-07-13 13:40:00,751]: Entering: get_updates
+[2017-07-13 13:40:10,745]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:40:10,745]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:40:10,746]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:40:11,746]: Entering: get_updates
+[2017-07-13 13:40:21,818]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:40:21,818]: No new updates found.
+[2017-07-13 13:40:21,819]: []
+[2017-07-13 13:40:21,819]: Exiting: get_updates
+[2017-07-13 13:40:21,819]: Entering: get_updates
+[2017-07-13 13:40:31,901]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:40:31,901]: No new updates found.
+[2017-07-13 13:40:31,901]: []
+[2017-07-13 13:40:31,901]: Exiting: get_updates
+[2017-07-13 13:40:31,902]: Entering: get_updates
+[2017-07-13 13:40:41,887]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:40:41,888]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:40:41,888]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:40:42,888]: Entering: get_updates
+[2017-07-13 13:40:52,959]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:40:52,960]: No new updates found.
+[2017-07-13 13:40:52,960]: []
+[2017-07-13 13:40:52,960]: Exiting: get_updates
+[2017-07-13 13:40:52,961]: Entering: get_updates
+[2017-07-13 13:41:03,035]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:41:03,036]: No new updates found.
+[2017-07-13 13:41:03,036]: []
+[2017-07-13 13:41:03,036]: Exiting: get_updates
+[2017-07-13 13:41:03,037]: Entering: get_updates
+[2017-07-13 13:41:13,028]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:41:13,028]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:41:13,028]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:41:14,028]: Entering: get_updates
+[2017-07-13 13:41:24,101]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:41:24,102]: No new updates found.
+[2017-07-13 13:41:24,102]: []
+[2017-07-13 13:41:24,102]: Exiting: get_updates
+[2017-07-13 13:41:24,103]: Entering: get_updates
+[2017-07-13 13:41:34,175]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:41:34,176]: No new updates found.
+[2017-07-13 13:41:34,176]: []
+[2017-07-13 13:41:34,176]: Exiting: get_updates
+[2017-07-13 13:41:34,176]: Entering: get_updates
+[2017-07-13 13:41:44,169]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:41:44,169]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:41:44,170]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:41:45,170]: Entering: get_updates
+[2017-07-13 13:41:57,135]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:41:57,136]: No new updates found.
+[2017-07-13 13:41:57,136]: []
+[2017-07-13 13:41:57,137]: Exiting: get_updates
+[2017-07-13 13:41:57,137]: Entering: get_updates
+[2017-07-13 13:42:07,210]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:42:07,210]: No new updates found.
+[2017-07-13 13:42:07,210]: []
+[2017-07-13 13:42:07,211]: Exiting: get_updates
+[2017-07-13 13:42:07,211]: Entering: get_updates
+[2017-07-13 13:42:17,209]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:42:17,209]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:42:17,210]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:42:18,210]: Entering: get_updates
+[2017-07-13 13:42:28,284]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:42:28,285]: No new updates found.
+[2017-07-13 13:42:28,285]: []
+[2017-07-13 13:42:28,285]: Exiting: get_updates
+[2017-07-13 13:42:28,286]: Entering: get_updates
+[2017-07-13 13:42:38,358]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:42:38,358]: No new updates found.
+[2017-07-13 13:42:38,359]: []
+[2017-07-13 13:42:38,359]: Exiting: get_updates
+[2017-07-13 13:42:38,359]: Entering: get_updates
+[2017-07-13 13:42:48,354]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:42:48,355]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:42:48,355]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:42:49,355]: Entering: get_updates
+[2017-07-13 13:42:59,426]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:42:59,427]: No new updates found.
+[2017-07-13 13:42:59,427]: []
+[2017-07-13 13:42:59,428]: Exiting: get_updates
+[2017-07-13 13:42:59,428]: Entering: get_updates
+[2017-07-13 13:43:09,502]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:43:09,503]: No new updates found.
+[2017-07-13 13:43:09,503]: []
+[2017-07-13 13:43:09,503]: Exiting: get_updates
+[2017-07-13 13:43:09,504]: Entering: get_updates
+[2017-07-13 13:43:19,499]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:43:19,500]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:43:19,500]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:43:20,500]: Entering: get_updates
+[2017-07-13 13:43:30,572]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:43:30,572]: No new updates found.
+[2017-07-13 13:43:30,572]: []
+[2017-07-13 13:43:30,572]: Exiting: get_updates
+[2017-07-13 13:43:30,573]: Entering: get_updates
+[2017-07-13 13:43:40,645]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:43:40,646]: No new updates found.
+[2017-07-13 13:43:40,646]: []
+[2017-07-13 13:43:40,646]: Exiting: get_updates
+[2017-07-13 13:43:40,647]: Entering: get_updates
+[2017-07-13 13:43:50,640]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:43:50,641]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:43:50,641]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:43:51,641]: Entering: get_updates
+[2017-07-13 13:44:01,713]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:44:01,714]: No new updates found.
+[2017-07-13 13:44:01,714]: []
+[2017-07-13 13:44:01,714]: Exiting: get_updates
+[2017-07-13 13:44:01,715]: Entering: get_updates
+[2017-07-13 13:44:11,787]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:44:11,788]: No new updates found.
+[2017-07-13 13:44:11,788]: []
+[2017-07-13 13:44:11,788]: Exiting: get_updates
+[2017-07-13 13:44:11,789]: Entering: get_updates
+[2017-07-13 13:44:21,782]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:21,783]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:21,783]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:22,783]: Entering: get_updates
+[2017-07-13 13:44:26,590]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:26,591]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:26,591]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:28,092]: Entering: get_updates
+[2017-07-13 13:44:28,092]: Resetting dropped connection: api.telegram.org
+[2017-07-13 13:44:29,464]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:29,465]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:29,465]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:31,715]: Entering: get_updates
+[2017-07-13 13:44:33,309]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:44:33,310]: Getting updates: [586429621]
+[2017-07-13 13:44:33,310]: [<telegram.update.Update object at 0x03134470>]
+[2017-07-13 13:44:33,310]: Exiting: get_updates
+[2017-07-13 13:44:33,310]: Entering: get_updates
+[2017-07-13 13:44:33,311]: Processing Update: {'update_id': 586429621, 'message': {'message_id': 57, 'date': 1499942676, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADcQADR3A4SyWk1UrBYcDsAg', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 16350}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:44:33,428]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:33,428]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:33,431]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:34,429]: Entering: get_updates
+[2017-07-13 13:44:35,569]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:35,570]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:35,570]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:37,070]: Entering: get_updates
+[2017-07-13 13:44:38,711]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:38,712]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:38,712]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:40,962]: Entering: get_updates
+[2017-07-13 13:44:43,353]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:43,353]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:43,353]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:46,729]: Entering: get_updates
+[2017-07-13 13:44:50,638]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:50,639]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:50,639]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:55,702]: Entering: get_updates
+[2017-07-13 13:44:58,058]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:44:58,059]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:44:58,059]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:05,654]: Entering: get_updates
+[2017-07-13 13:45:13,389]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:13,390]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:13,390]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:24,782]: Entering: get_updates
+[2017-07-13 13:45:25,846]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:25,847]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:25,847]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:42,934]: Entering: get_updates
+[2017-07-13 13:45:43,990]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 382
+[2017-07-13 13:45:43,991]: Getting updates: [586429623]
+[2017-07-13 13:45:43,991]: [<telegram.update.Update object at 0x03134270>]
+[2017-07-13 13:45:43,991]: Exiting: get_updates
+[2017-07-13 13:45:43,991]: Entering: get_updates
+[2017-07-13 13:45:43,992]: Processing Update: {'update_id': 586429623, 'message': {'message_id': 59, 'date': 1499942747, 'chat': {'id': 211501975, 'type': 'private', 'username': 'xtipacko', 'first_name': 'Yevgeniy'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADcwADR3A4S39P9C-ay71-Ag', 'duration': 2, 'mime_type': 'audio/ogg', 'file_size': 12810}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 13:45:44,081]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:44,082]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:44,082]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:45,082]: Entering: get_updates
+[2017-07-13 13:45:49,690]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:49,690]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:49,691]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:51,190]: Entering: get_updates
+[2017-07-13 13:45:52,332]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:52,333]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:52,334]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:54,583]: Entering: get_updates
+[2017-07-13 13:45:56,220]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:45:56,221]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:56,222]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:45:59,597]: Entering: get_updates
+[2017-07-13 13:46:00,742]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:46:00,742]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:00,743]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:05,806]: Entering: get_updates
+[2017-07-13 13:46:09,317]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:46:09,317]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:09,318]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:16,912]: Entering: get_updates
+[2017-07-13 13:46:22,110]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:46:22,111]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:22,111]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:33,503]: Entering: get_updates
+[2017-07-13 13:46:39,708]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:46:39,709]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:39,710]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:56,796]: Entering: get_updates
+[2017-07-13 13:46:57,933]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:46:57,933]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:46:57,933]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:47:23,563]: Entering: get_updates
+[2017-07-13 13:47:24,705]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:47:24,706]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:47:24,706]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:48:03,150]: Entering: get_updates
+[2017-07-13 13:48:04,294]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:48:04,294]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:48:04,295]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:48:34,296]: Entering: get_updates
+[2017-07-13 13:48:35,440]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:48:35,441]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:48:35,442]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:49:05,442]: Entering: get_updates
+[2017-07-13 13:49:06,580]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:49:06,581]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:49:06,581]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:49:36,582]: Entering: get_updates
+[2017-07-13 13:49:37,718]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:49:37,719]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:49:37,719]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:50:07,720]: Entering: get_updates
+[2017-07-13 13:50:09,355]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:50:09,355]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:50:09,356]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:50:39,356]: Entering: get_updates
+[2017-07-13 13:50:40,491]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:50:40,492]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:50:40,492]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:51:10,493]: Entering: get_updates
+[2017-07-13 13:51:11,627]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:51:11,628]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:51:11,629]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:51:41,628]: Entering: get_updates
+[2017-07-13 13:51:42,762]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:51:42,763]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:51:42,764]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:52:12,764]: Entering: get_updates
+[2017-07-13 13:52:13,902]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:52:13,903]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:52:13,903]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:52:43,904]: Entering: get_updates
+[2017-07-13 13:52:45,041]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:52:45,042]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:52:45,042]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:53:15,043]: Entering: get_updates
+[2017-07-13 13:53:16,182]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:53:16,183]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:53:16,183]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:53:46,183]: Entering: get_updates
+[2017-07-13 13:53:52,405]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:53:52,406]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:53:52,406]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:54:22,407]: Entering: get_updates
+[2017-07-13 13:54:23,548]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:54:23,549]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:54:23,549]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:54:53,549]: Entering: get_updates
+[2017-07-13 13:54:54,691]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:54:54,692]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:54:54,692]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:55:24,693]: Entering: get_updates
+[2017-07-13 13:55:25,836]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:55:25,837]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:55:25,837]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:55:55,838]: Entering: get_updates
+[2017-07-13 13:55:56,982]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:55:56,983]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:55:56,983]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:56:26,984]: Entering: get_updates
+[2017-07-13 13:56:28,121]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:56:28,122]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:56:28,122]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:56:58,122]: Entering: get_updates
+[2017-07-13 13:57:08,193]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:57:08,194]: No new updates found.
+[2017-07-13 13:57:08,194]: []
+[2017-07-13 13:57:08,194]: Exiting: get_updates
+[2017-07-13 13:57:08,194]: Entering: get_updates
+[2017-07-13 13:57:18,267]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:57:18,267]: No new updates found.
+[2017-07-13 13:57:18,268]: []
+[2017-07-13 13:57:18,268]: Exiting: get_updates
+[2017-07-13 13:57:18,268]: Entering: get_updates
+[2017-07-13 13:57:28,339]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:57:28,340]: No new updates found.
+[2017-07-13 13:57:28,340]: []
+[2017-07-13 13:57:28,341]: Exiting: get_updates
+[2017-07-13 13:57:28,341]: Entering: get_updates
+[2017-07-13 13:57:38,412]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 13:57:38,413]: No new updates found.
+[2017-07-13 13:57:38,414]: []
+[2017-07-13 13:57:38,414]: Exiting: get_updates
+[2017-07-13 13:57:38,414]: Entering: get_updates
+[2017-07-13 13:57:47,737]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:57:47,738]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:47,738]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:48,738]: Entering: get_updates
+[2017-07-13 13:57:49,880]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:57:49,881]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:49,881]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:51,381]: Entering: get_updates
+[2017-07-13 13:57:52,525]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:57:52,525]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:52,526]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:54,776]: Entering: get_updates
+[2017-07-13 13:57:56,417]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:57:56,417]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:56,418]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:57:59,793]: Entering: get_updates
+[2017-07-13 13:58:02,184]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:58:02,185]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:02,185]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:07,248]: Entering: get_updates
+[2017-07-13 13:58:10,765]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:58:10,766]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:10,766]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:18,360]: Entering: get_updates
+[2017-07-13 13:58:23,563]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:58:23,564]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:23,564]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:34,956]: Entering: get_updates
+[2017-07-13 13:58:36,099]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:58:36,100]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:36,100]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:53,187]: Entering: get_updates
+[2017-07-13 13:58:54,335]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:58:54,336]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:58:54,336]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:59:19,966]: Entering: get_updates
+[2017-07-13 13:59:21,106]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 13:59:21,107]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:59:21,107]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 13:59:59,551]: Entering: get_updates
+[2017-07-13 14:00:09,626]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:00:09,626]: No new updates found.
+[2017-07-13 14:00:09,626]: []
+[2017-07-13 14:00:09,626]: Exiting: get_updates
+[2017-07-13 14:00:09,626]: Entering: get_updates
+[2017-07-13 14:00:14,038]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:14,039]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:14,040]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:15,039]: Entering: get_updates
+[2017-07-13 14:00:17,239]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:17,239]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:17,240]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:18,739]: Entering: get_updates
+[2017-07-13 14:00:20,379]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:20,379]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:20,380]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:22,629]: Entering: get_updates
+[2017-07-13 14:00:23,768]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:23,769]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:23,769]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:27,144]: Entering: get_updates
+[2017-07-13 14:00:28,809]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:28,810]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:28,810]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:33,874]: Entering: get_updates
+[2017-07-13 14:00:35,011]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:00:35,012]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:35,012]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:00:42,606]: Entering: get_updates
+[2017-07-13 14:00:52,677]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:00:52,678]: No new updates found.
+[2017-07-13 14:00:52,678]: []
+[2017-07-13 14:00:52,678]: Exiting: get_updates
+[2017-07-13 14:00:52,678]: Entering: get_updates
+[2017-07-13 14:01:02,749]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:02,750]: No new updates found.
+[2017-07-13 14:01:02,750]: []
+[2017-07-13 14:01:02,750]: Exiting: get_updates
+[2017-07-13 14:01:02,750]: Entering: get_updates
+[2017-07-13 14:01:12,824]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:12,825]: No new updates found.
+[2017-07-13 14:01:12,825]: []
+[2017-07-13 14:01:12,826]: Exiting: get_updates
+[2017-07-13 14:01:12,826]: Entering: get_updates
+[2017-07-13 14:01:22,896]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:22,897]: No new updates found.
+[2017-07-13 14:01:22,897]: []
+[2017-07-13 14:01:22,897]: Exiting: get_updates
+[2017-07-13 14:01:22,897]: Entering: get_updates
+[2017-07-13 14:01:32,967]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:32,968]: No new updates found.
+[2017-07-13 14:01:32,968]: []
+[2017-07-13 14:01:32,968]: Exiting: get_updates
+[2017-07-13 14:01:32,969]: Entering: get_updates
+[2017-07-13 14:01:43,040]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:43,041]: No new updates found.
+[2017-07-13 14:01:43,042]: []
+[2017-07-13 14:01:43,042]: Exiting: get_updates
+[2017-07-13 14:01:43,042]: Entering: get_updates
+[2017-07-13 14:01:53,113]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:01:53,114]: No new updates found.
+[2017-07-13 14:01:53,114]: []
+[2017-07-13 14:01:53,114]: Exiting: get_updates
+[2017-07-13 14:01:53,114]: Entering: get_updates
+[2017-07-13 14:02:02,727]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:02,727]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:02,727]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:03,727]: Entering: get_updates
+[2017-07-13 14:02:04,868]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:04,868]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:04,869]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:06,369]: Entering: get_updates
+[2017-07-13 14:02:08,010]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:08,011]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:08,011]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:10,261]: Entering: get_updates
+[2017-07-13 14:02:12,651]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:12,651]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:12,652]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:16,027]: Entering: get_updates
+[2017-07-13 14:02:18,323]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:18,323]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:18,324]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:23,386]: Entering: get_updates
+[2017-07-13 14:02:25,026]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:25,027]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:25,028]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:32,622]: Entering: get_updates
+[2017-07-13 14:02:33,763]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:33,764]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:33,764]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:45,155]: Entering: get_updates
+[2017-07-13 14:02:49,251]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:02:49,252]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:02:49,252]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:03:06,339]: Entering: get_updates
+[2017-07-13 14:03:07,517]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:03:07,518]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:03:07,518]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:03:33,147]: Entering: get_updates
+[2017-07-13 14:03:34,288]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:03:34,289]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:03:34,290]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:12,734]: Entering: get_updates
+[2017-07-13 14:04:13,875]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:04:13,875]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:13,876]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:43,876]: Entering: get_updates
+[2017-07-13 14:04:44,800]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 348
+[2017-07-13 14:04:44,801]: Getting updates: [586429651]
+[2017-07-13 14:04:44,801]: [<telegram.update.Update object at 0x031340F0>]
+[2017-07-13 14:04:44,802]: Exiting: get_updates
+[2017-07-13 14:04:44,802]: Entering: get_updates
+[2017-07-13 14:04:44,803]: Processing Update: {'update_id': 586429651, 'message': {'message_id': 6716, 'date': 1499943888, 'chat': {'id': -1001092712501, 'type': 'supergroup', 'title': 'NetDevOps', 'username': 'netdevops'}, 'text': '/start@MicroMonster_bot', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 23}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 72998368, 'first_name': 'Timofmax', 'username': 'Timofmax'}, 'new_chat_member': None}}
+[2017-07-13 14:04:45,018]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:04:45,018]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:45,019]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:46,019]: Entering: get_updates
+[2017-07-13 14:04:47,912]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:04:47,913]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:47,914]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:49,413]: Entering: get_updates
+[2017-07-13 14:04:51,058]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:04:51,059]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:51,060]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:53,310]: Entering: get_updates
+[2017-07-13 14:04:55,710]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:04:55,711]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:55,711]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:04:59,086]: Entering: get_updates
+[2017-07-13 14:04:59,502]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 389
+[2017-07-13 14:04:59,503]: Getting updates: [586429653]
+[2017-07-13 14:04:59,503]: [<telegram.update.Update object at 0x03134490>]
+[2017-07-13 14:04:59,503]: Exiting: get_updates
+[2017-07-13 14:04:59,503]: Processing Update: {'update_id': 586429653, 'message': {'message_id': 6719, 'date': 1499943903, 'chat': {'id': -1001092712501, 'type': 'supergroup', 'title': 'NetDevOps', 'username': 'netdevops'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADPgADEn1BS86kxa9MZ0WzAg', 'duration': 3, 'mime_type': 'audio/ogg', 'file_size': 19945}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-RU'}, 'new_chat_member': None}}
+[2017-07-13 14:04:59,504]: Entering: get_updates
+[2017-07-13 14:05:02,612]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:02,613]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:02,614]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:03,613]: Entering: get_updates
+[2017-07-13 14:05:08,824]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:08,825]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:08,825]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:10,326]: Entering: get_updates
+[2017-07-13 14:05:18,154]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:18,155]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:18,155]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:20,405]: Entering: get_updates
+[2017-07-13 14:05:21,546]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:21,546]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:21,547]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:24,922]: Entering: get_updates
+[2017-07-13 14:05:26,568]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:26,569]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:26,569]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:31,633]: Entering: get_updates
+[2017-07-13 14:05:31,888]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 389
+[2017-07-13 14:05:31,889]: Getting updates: [586429656]
+[2017-07-13 14:05:31,889]: [<telegram.update.Update object at 0x03134170>]
+[2017-07-13 14:05:31,889]: Exiting: get_updates
+[2017-07-13 14:05:31,889]: Entering: get_updates
+[2017-07-13 14:05:31,889]: Processing Update: {'update_id': 586429656, 'message': {'message_id': 6723, 'date': 1499943935, 'chat': {'id': -1001092712501, 'type': 'supergroup', 'title': 'NetDevOps', 'username': 'netdevops'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADQAADEn1BSwkkLK2G42TUAg', 'duration': 4, 'mime_type': 'audio/ogg', 'file_size': 28526}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 14:05:34,024]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:34,025]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:34,025]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:35,025]: Entering: get_updates
+[2017-07-13 14:05:38,543]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:38,543]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:38,543]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:40,043]: Entering: get_updates
+[2017-07-13 14:05:48,491]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 388
+[2017-07-13 14:05:48,492]: Getting updates: [586429657]
+[2017-07-13 14:05:48,493]: [<telegram.update.Update object at 0x03134410>]
+[2017-07-13 14:05:48,493]: Exiting: get_updates
+[2017-07-13 14:05:48,493]: Processing Update: {'update_id': 586429657, 'message': {'message_id': 6724, 'date': 1499943949, 'chat': {'id': -1001092712501, 'type': 'supergroup', 'title': 'NetDevOps', 'username': 'netdevops'}, 'entities': [], 'photo': [], 'voice': {'file_id': 'AwADAgADQQADEn1BS6vgBWm1ygOiAg', 'duration': 1, 'mime_type': 'audio/ogg', 'file_size': 4066}, 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 211501975, 'first_name': 'Yevgeniy', 'username': 'xtipacko', 'language_code': 'en-US'}, 'new_chat_member': None}}
+[2017-07-13 14:05:48,494]: Entering: get_updates
+[2017-07-13 14:05:48,565]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:48,566]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:48,566]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:49,566]: Entering: get_updates
+[2017-07-13 14:05:50,712]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:50,713]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:50,714]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:52,214]: Entering: get_updates
+[2017-07-13 14:05:53,861]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:53,861]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:53,862]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:56,112]: Entering: get_updates
+[2017-07-13 14:05:58,515]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:05:58,516]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:05:58,516]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:01,893]: Entering: get_updates
+[2017-07-13 14:06:03,038]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:06:03,039]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:03,039]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:08,102]: Entering: get_updates
+[2017-07-13 14:06:09,749]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:06:09,749]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:09,749]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:17,343]: Entering: get_updates
+[2017-07-13 14:06:20,234]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:06:20,234]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:20,235]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:31,625]: Entering: get_updates
+[2017-07-13 14:06:32,770]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:06:32,770]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:32,771]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:49,858]: Entering: get_updates
+[2017-07-13 14:06:49,858]: Resetting dropped connection: api.telegram.org
+[2017-07-13 14:06:51,238]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:06:51,239]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:06:51,239]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:07:16,869]: Entering: get_updates
+[2017-07-13 14:07:18,012]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:07:18,013]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:07:18,013]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:07:56,457]: Entering: get_updates
+[2017-07-13 14:07:57,605]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:07:57,606]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:07:57,607]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:08:27,607]: Entering: get_updates
+[2017-07-13 14:08:28,756]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:08:28,757]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:08:28,757]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:08:58,758]: Entering: get_updates
+[2017-07-13 14:08:59,905]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:08:59,906]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:08:59,906]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:09:29,906]: Entering: get_updates
+[2017-07-13 14:09:31,051]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:09:31,052]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:09:31,052]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:10:01,053]: Entering: get_updates
+[2017-07-13 14:10:02,197]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:10:02,198]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:10:02,198]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:10:32,199]: Entering: get_updates
+[2017-07-13 14:10:33,350]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:10:33,350]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:10:33,350]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:11:03,351]: Entering: get_updates
+[2017-07-13 14:11:04,495]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 409 96
+[2017-07-13 14:11:04,495]: Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:11:04,496]: Processing Update: Conflict: terminated by other long poll or webhook (409)
+[2017-07-13 14:11:34,496]: Entering: get_updates
+[2017-07-13 14:11:44,574]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:11:44,574]: No new updates found.
+[2017-07-13 14:11:44,575]: []
+[2017-07-13 14:11:44,575]: Exiting: get_updates
+[2017-07-13 14:11:44,575]: Entering: get_updates
+[2017-07-13 14:11:54,649]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:11:54,650]: No new updates found.
+[2017-07-13 14:11:54,650]: []
+[2017-07-13 14:11:54,651]: Exiting: get_updates
+[2017-07-13 14:11:54,651]: Entering: get_updates
+[2017-07-13 14:12:04,724]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 23
+[2017-07-13 14:12:04,725]: No new updates found.
+[2017-07-13 14:12:04,725]: []
+[2017-07-13 14:12:04,725]: Exiting: get_updates
+[2017-07-13 14:12:04,725]: Entering: get_updates
+[2017-07-13 14:12:07,580]: https://api.telegram.org:443 "POST /bot413253541:AAEEq8l2Uev0E7b1KaKX6cidhtWknA2_pos/getUpdates HTTP/1.1" 200 397
+[2017-07-13 14:12:07,581]: Getting updates: [586429669]
+[2017-07-13 14:12:07,582]: [<telegram.update.Update object at 0x03134030>]
+[2017-07-13 14:12:07,582]: Exiting: get_updates
+[2017-07-13 14:12:07,582]: Entering: get_updates
