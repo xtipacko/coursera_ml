@@ -16,7 +16,8 @@ class OnevsRestClf:
             new_dp = np.array([np.append(row[:y_column],1*int(int(row[y_column]) == c))
                                                                    for row in datapoints])      #splitting   
             self.class_order.append(c)
-            self.prepared_dp_lst.append(new_dp)        
+            self.prepared_dp_lst.append(new_dp)
+        self.class_order = np.array(self.class_order)
         #creating linear classifier for each generated dataset:
         self.clf_lst = []
         for prep_dp in self.prepared_dp_lst:
@@ -29,15 +30,10 @@ class OnevsRestClf:
         for clf in self.clf_lst:
             all_predictions.append(clf.predict(X))
         np_all_predictions = np.column_stack(all_predictions)
-        classified_pred = []
-        for row in np_all_predictions:
-            prediction = None
-            predict_class = None
-            for c, i in enumerate(row):
-                if prediction is None or prediction < i:
-                    prediction = i
-                    predict_class = self.class_order[c]
-            classified_pred.append(predict_class)
+        
+        max_index_array = np.argmax(np_all_predictions, axis=1) #finding maxima index
+        classified_pred = self.class_order[max_index_array]# mapping index to class
+
         return np.array(classified_pred)
 
 
