@@ -13,11 +13,11 @@ plot = Plot2D((10,10))
 plot.plot_labeled_data(datapoints)
 
 
-clf = OnevsRestClf(datapoints, a=0.03)
+clf = OnevsRestClf(datapoints, a=0.3)
 
 for i in range(1000000):
     clf.gradient_step()
-    if not i % 100:
+    if not i % 10:
         plot.plot_decision_surface(clf.predictor_func)
         cost = clf.CostFunction()
         print(f'[{i:07}] Cost is: {cost}')
