@@ -1,16 +1,33 @@
 import numpy as np
+from itertools import combinations_with_replacement
+from functools import reduce
 
 sigmoid = lambda x: np.reciprocal(1+np.exp(-1*x))
 
 class PolyClassifier:
 
     def __init__(self, datapoints, a=0.1, degree=2):
+        self.degree = degree
         #t0, t1, t2, t1^2, t2^2, t1*t2
-        self.theta   = np.zeros(6)     
-        self.X = self.polynomize_data(datapoints[:,:-1], degree=2)
-        self.mu, self.rng, self.X = self.normalize_data(self.X, extract_stats=True)
+        self.dp_len = datapoints.shape[0]
+        self.dp_feat = datapoints.shape[1] - 1
+        feat_num = lambda d: 1 + 2*d + (d**2 - d) // 2 # for 2 initial features
+        self.theta   = np.zeros(feat_num(degree))
+        self.imu, self.istd = None, None
+        self.X = self.init_norm(datapoints[:,:-1], extract_stats=True)        
+        self.X = self.polynomize_data(self.X)
+        self.mu, self.rng, self.X = self.normalize_data(self.X, extract_stats=True)        
         self.y = datapoints[:,-1]
         self.a = a
+
+    def init_norm(self, datapoints, extract_stats=False):
+        if extract_stats:
+            self.imu  = np.mean(datapoints, axis=0)
+            self.istd = np.std(datapoints, axis=0)
+        return (datapoints - self.imu) / self.istd
+
+
+
 
  
     def normalize_data(self, datapoints, extract_stats=False):
@@ -32,18 +49,23 @@ class PolyClassifier:
         return mu, rng, datapoints
 
 
-    def polynomize_data(self, datapoints, degree=2):
+    def polynomize_data(self, datapoints):
         dp_len = datapoints.shape[0]
-        assert degree == 2, 'Feature Not Implemented yet'
 
-        orig_features = datapoints
-        squred_features = orig_features**2
-        feature_combinations = np.multiply(datapoints[:,0],datapoints[:,1])
-        return np.column_stack((np.ones(dp_len),
-                                orig_features,
-                                squred_features,
-                                feature_combinations))
+        x0 = np.ones(dp_len)
+        orig_features = list(datapoints.transpose())
 
+        # for combinations could have used binary counting, with each bit representing element in a list
+        all_comb_terms = []
+        for i in range(2, self.degree+1):
+            combinations = combinations_with_replacement(orig_features,i)
+            all_comb_terms.extend(combinations)
+        all_features = [x0] + orig_features
+        for term in all_comb_terms:
+            multple = reduce(np.multiply,term)
+            all_features.append(multple)
+
+        return np.column_stack(all_features)        
 
     def gradient_step(self):
         self.theta = self.theta - self.a*self.grad()
@@ -58,7 +80,8 @@ class PolyClassifier:
         h = self.predict(self.X) # hypothesis vector                  
         return (self.X.transpose().dot((h - self.y))) / m
 
-    def predictor_func(self, X):        
+    def predictor_func(self, X):    
+        X = self.init_norm(X)  
         X = self.polynomize_data(X)
         _, _, X = self.normalize_data(X)
         return self.predict(X)

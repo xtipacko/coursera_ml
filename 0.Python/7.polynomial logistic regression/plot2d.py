@@ -125,7 +125,7 @@ class Plot2D:
 
 if __name__ == '__main__':
     plot = Plot2D((10,10))
-    set_seed(80) #137, 131, 124, 123, 119, 106, 85, 82, 80, 67, 56, 53
+    set_seed(81) #137, 131, 124, 123, 119, 106, 85, 82, 80, 67, 56, 53
     datapoints = labeled_Points(Aweight=3, Bweight=2, Aamount=700, Bamount=700, scale=10)
     print(datapoints.shape)
     plot.plot_labeled_data(datapoints)
