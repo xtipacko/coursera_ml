@@ -21,10 +21,10 @@ plot = Plot2D((10,10))
 plot.plot_labeled_data(datapoints)
 
 
-clf = PolyClassifier(datapoints, a=45, degree=18)
-clf.theta = theta
-step = 10000
-with writer.saving(plot.fig, "polynomial_regression__in.mp4", 100):
+clf = PolyClassifier(datapoints, a=10, degree=18)
+#clf.theta = theta
+step = 1000
+with writer.saving(plot.fig, "polynomial_regression_4.mp4", 100):
     for i in range(10000000):
         clf.gradient_step()
         if not i % step:            
@@ -39,7 +39,7 @@ with writer.saving(plot.fig, "polynomial_regression__in.mp4", 100):
             writer.grab_frame()
 with open('theta.py', 'w+') as f:
     f.write('import numpy as np\n')
-    f.write(f'theta = np.array({list(clf.theta)})')
+    f.write(f'theta = np.array({list(clf.theta)})\n')
 
 
             
