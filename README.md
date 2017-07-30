@@ -1,5 +1,4 @@
-# coursera_ml
-Home assigment and experimental projects on Machine Learning
+# Home assigment and experimental projects on Machine Learning (coursera Andrew Ng)
 
 
 ![Polynomial Logistic Regression degree=40, lambda=0.3](https://github.com/xtipacko/coursera_ml/blob/master/0.Python/8.polynomial%20logistic%20regression%20with%20regularization/polyclf_regular_lambda_eq_0.3.gif)
